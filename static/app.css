@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.text {
+    color: white;
+    font-size: 25px;
+    margin: 15px;
+}
+
+#title {
+    font-size: 50px;
+}
+
+.rounded-button {
+    background-color: black; 
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 30px;
+    margin: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition-duration: 0.7s;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.rounded-button:hover {
+    background-color: white; /* change color on hover */
+    color: black;
+}
+
+
+/* Hide the default file input */
+.file-input {
+    display: none;
+}
+
+/* Style the custom file label */
+.custom-file-label {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.file-name {
+    margin-top: 10px;
+    color: white;
+    font-size: 16px;
+    font-family: "Pixelify Sans", sans-serif;
+}
